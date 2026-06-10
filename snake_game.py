@@ -121,7 +121,7 @@ class SnakeGame:
         tk.Label(panel, text="❤️ 生命", fg="white", bg="#2c2c3e",
                  font=("Arial", 10)).pack(side="right", padx=(16, 4))
         lives_scale = tk.Scale(
-            panel, from_=100, to=1, variable=self.lives,
+            panel, from_=10, to=1, variable=self.lives,
             orient="horizontal", length=80, showvalue=True,
             bg="#2c2c3e", fg="white", highlightthickness=0,
             troughcolor="#44445e", activebackground="#55557a",
