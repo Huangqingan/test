@@ -18,6 +18,10 @@ python snake_game.py
 - **Linux**: `sudo apt install python3-tk`
 - **macOS**: 使用官方 Python 安装器（Homebrew 版本可能不含 tkinter）
 
+## 对话规则
+
+- **每次任务结束后**，必须报告当前上下文窗口的占用比例（tokens used / total tokens，以及百分比）。格式示例：`上下文占用: 25.3k / 1M (2.5%)`
+
 ## 代码结构
 
 - `snake_game.py` — 贪吃蛇游戏，单文件 tkinter 应用。`SnakeGame` 类封装了 UI 面板（设置面板 + 游戏画布）和游戏逻辑（移动、碰撞检测、得分）。游戏通过 `root.after()` 实现定时循环。顶部设置面板支持调节速度、蛇身颜色方案和食物颜色。
