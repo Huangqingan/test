@@ -36,6 +36,12 @@
       "sourceType": "github",
       "skillPath": "skills/smart-search/SKILL.md",
       "computedHash": "249dc762517319479d5550dd90d26e188debf931a0efeb1fbc0987be977fe40e"
+    },
+    "zimage-skill": {
+      "source": "yizhiyanhua-ai/zimage-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "b927841351e07d219339f5e78b246aa083536d00d52ede598997fe245808737e"
     }
   }
 }
